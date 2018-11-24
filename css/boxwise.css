@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 html {
     font-size: 1rem;
@@ -9,6 +9,7 @@ body{
     font-family: Open Sans;
     color: #000000;
     -webkit-font-smoothing: antialiased;
+    line-height: 137.5%;
 }
 
 a {
@@ -176,7 +177,7 @@ p {
 }
 
 #box-logo{
-    width: 8.125rem;
+    width: auto;
     height: 1.875rem;
 }
 
@@ -219,6 +220,20 @@ margin: 0;
     -o-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
+}
+
+/*Boxwise works*/
+.counter-container p{
+    line-height: 120%;
+
+}
+.counter-container h1{
+    font-size: 5rem;
+    color: #A77339;
+}
+.counter-container h2{
+    font-size: 3rem;
+    color: #A77339;
 }
 
 
