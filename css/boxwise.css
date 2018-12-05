@@ -37,6 +37,9 @@ h2{
     h2{
         font-size: 1.41rem;
     }
+    .tooltip-inner{
+        max-width: 350px;
+    }
 }
 
 .blend{
